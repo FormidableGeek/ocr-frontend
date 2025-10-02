@@ -18,7 +18,7 @@ const Dashboard = () => {
           <Header title="Dashboard" 
                   text={`Welcome back, ${user.name}! Here's an overview of your library's activity.`} />
                 
-           <Search></Search>
+           <Search/>
 
             <h2 className="text-[#141414] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">System Overview</h2>
             <div className='grid lg:grid-cols-6  sm:grid-cols-1'> 
@@ -45,11 +45,8 @@ const Dashboard = () => {
                 </button>
               </div>
             </div>
-            <RecentActivity></RecentActivity>
+            <RecentActivity/>
         
-
-
-
 
 
 
