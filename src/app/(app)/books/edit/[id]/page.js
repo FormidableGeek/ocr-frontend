@@ -3,6 +3,7 @@
 import { useAuth } from '@/hooks/auth';
 import Header from '@/app/(app)/Header';
 import { useState, useEffect } from 'react';
+import {image} from 'next/image';
 import axios from 'axios';
 import { useRouter, useParams } from 'next/navigation';
 
@@ -87,7 +88,8 @@ const EditBook = () => {
               <label className="block text-sm sm:text-base font-medium text-gray-700 mb-2">
                 Book Title
               </label>
-              <img src={`${process.env.NEXT_PUBLIC_BACKEND_URL}/storage/book_covers/${formData.cover_image_url}`} alt={formData.title} className="w-full h-auto rounded-lg" />
+
+              <Image src={`${process.env.NEXT_PUBLIC_BACKEND_URL}/storage/book_covers/${formData.cover_image_url}`} alt={formData.title} className="w-full h-auto rounded-lg" />
             </div>
 
             <div className="mb-4">
