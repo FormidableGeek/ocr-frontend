@@ -82,23 +82,11 @@ export default function Nav({ user, logout }) {
                 ></path>
               </svg>
             </div>
-            <NavLink href="/transactions" className="text-[#141414] text-sm font-medium leading-normal">
-              Transactions
+            <NavLink href="/books" className="text-[#141414] text-sm font-medium leading-normal">
+              Books
             </NavLink>
           </div>
 
-          <div className="flex items-center gap-3 px-3 py-2 hover:bg-neutral-100 rounded-lg">
-            <div className="text-[#141414]" data-icon="PresentationChart" data-size="24px" data-weight="regular">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
-                <path
-                  d="M216,40H136V24a8,8,0,0,0-16,0V40H40A16,16,0,0,0,24,56V176a16,16,0,0,0,16,16H79.36L57.75,219a8,8,0,0,0,12.5,10l29.59-37h56.32l29.59,37a8,8,0,1,0,12.5-10l-21.61-27H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40Zm0,136H40V56H216V176ZM104,120v24a8,8,0,0,1-16,0V120a8,8,0,0,1,16,0Zm32-16v40a8,8,0,0,1-16,0V104a8,8,0,0,1,16,0Zm32-16v56a8,8,0,0,1-16,0V88a8,8,0,0,1,16,0Z"
-                ></path>
-              </svg>
-            </div>
-            <NavLink href="/reports" className="text-[#141414] text-sm font-medium leading-normal">
-              Reports
-            </NavLink>
-          </div>
 
           <div className="flex items-center gap-3 px-3 py-2 hover:bg-neutral-100 rounded-lg">
             <div className="text-[#141414]" data-icon="Gear" data-size="24px" data-weight="regular">

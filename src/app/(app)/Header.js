@@ -1,17 +1,16 @@
-import Greeting from "@/components/Greeting"
+import Greeting from '@/components/Greeting';
 
 const Header = ({ title, text = null }) => {
-    return (
-        <header className="bg-white shadow">
-            <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
+  return (
+    <header className="bg-white shadow">
+      <div className="max-w-7xl mx-auto py-4 px-4 sm:px-6 lg:px-8">
+        <h2 className="text-lg sm:text-xl md:text-2xl font-semibold text-gray-800 leading-tight">
+          {title}
+        </h2>
+        <Greeting message={text} />
+      </div>
+    </header>
+  );
+};
 
-                <h2 className="font-semibold text-xl text-gray-800 leading-tight">
-                    {title}
-                </h2>
-                <Greeting message={text} />
-            </div>
-        </header>
-    )
-}
-
-export default Header
+export default Header;
