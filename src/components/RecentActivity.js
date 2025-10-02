@@ -2,7 +2,6 @@
 
 import React from 'react'; // Added React import
 import { useAuth } from '@/hooks/auth';
-import Header from '@/app/(app)/Header';
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 
