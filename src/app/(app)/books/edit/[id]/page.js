@@ -3,7 +3,6 @@
 import { useAuth } from '@/hooks/auth';
 import Header from '@/app/(app)/Header';
 import { useState, useEffect } from 'react';
-import {image} from 'next/image';
 import axios from 'axios';
 import { useRouter, useParams } from 'next/navigation';
 
