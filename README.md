@@ -7,7 +7,7 @@ The Automated Library Inventory System (ALIS) is a smart, AI-powered mechatronic
 - ISBN/ISSN
 - Book title
 
-This repository contains the Next.js frontend dashboard used for reviewing, editing, validating, and managing book metadata extracted via OCR and multimodal AI.
+This repository contains the Next.js frontend dashboard used for scanning, reviewing, editing, validating, and managing book metadata extracted via OCR and multimodal AI.
 
 ## License
 
